@@ -65,6 +65,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
+%doc Changes
 %{perl_vendorlib}/HTML/Form.pm
 %{_mandir}/man3/HTML::Form.3pm*
