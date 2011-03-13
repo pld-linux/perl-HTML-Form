@@ -24,6 +24,9 @@ BuildRequires:	perl-HTML-Parser
 BuildRequires:	perl-HTTP-Message >= 6
 BuildRequires:	perl-URI >= 1.10
 %endif
+Requires:	perl-Encode >= 2
+Requires:	perl-HTML-Parser
+Requires:	perl-URI >= 1.10
 Conflicts:	perl-libwww < 6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
