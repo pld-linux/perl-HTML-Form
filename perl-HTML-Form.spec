@@ -4,7 +4,6 @@
 #
 %define		pdir	HTML
 %define		pnam	Form
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Form - Class that represents an HTML form element
 Summary(pl.UTF-8):	HTML::Form - klasa reprezentująca formularz HTML
 Name:		perl-HTML-Form
