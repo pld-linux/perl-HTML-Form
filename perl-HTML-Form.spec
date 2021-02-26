@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	71718750e6a2132b50eeca417a55e18e
-URL:		http://search.cpan.org/dist/HTML-Form/
+URL:		https://metacpan.org/release/HTML-Form
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Encode >= 2
 BuildRequires:	perl-HTML-Parser
