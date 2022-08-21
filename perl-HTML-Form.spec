@@ -7,13 +7,13 @@
 Summary:	HTML::Form - Class that represents an HTML form element
 Summary(pl.UTF-8):	HTML::Form - klasa reprezentująca formularz HTML
 Name:		perl-HTML-Form
-Version:	6.08
+Version:	6.09
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b6dab3beda31a0c17cb6b5051a9a9c84
+# Source0-md5:	c0a5a0c4e1e86b22d5c0b5e0bc75820f
 URL:		https://metacpan.org/release/HTML-Form
 BuildRequires:	perl-devel >= 1:5.8.8
 BuildRequires:	rpm-perlprov >= 4.1-13
