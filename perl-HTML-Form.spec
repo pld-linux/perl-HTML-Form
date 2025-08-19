@@ -22,6 +22,7 @@ BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	perl-Encode >= 2
 BuildRequires:	perl-HTML-Parser
 BuildRequires:	perl-HTTP-Message >= 6
+BuildRequires:	perl-Test-Warnings
 BuildRequires:	perl-URI >= 1.10
 %endif
 Requires:	perl-Encode >= 2
